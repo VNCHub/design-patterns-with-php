@@ -1,0 +1,14 @@
+{
+    "name": "vinicius/design-patterns",
+    "description": "Design patterns examples in PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.1"
+    }
+}
