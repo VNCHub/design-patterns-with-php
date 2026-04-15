@@ -31,3 +31,23 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 ### Template Method
 
 Defines the skeleton of an algorithm in a base class while allowing subclasses to override specific steps. This ensures a consistent workflow while enabling customization of certain parts of the process.
+
+<div style="display:flex; flex-wrap:wrap; gap:20px; align-items:center;">
+
+<div style="flex:1; min-width:280px;">
+
+### State
+
+Allows an object to change its behavior when its internal state changes, as if the object had changed its class.
+
+In this e-commerce example, an order transitions between states such as Pending Payment, Paid, Shipped, Delivered, and Cancelled. Each state controls which actions are valid, preventing invalid transitions and keeping business rules organized.
+
+</div>
+
+<div style="flex:1; min-width:280px;">
+
+![State Pattern Flow](./docs/php-state-pattern.png)
+
+</div>
+
+</div>
