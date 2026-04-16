@@ -32,6 +32,12 @@ Defines a family of algorithms, encapsulates each one, and makes them interchang
 
 Defines the skeleton of an algorithm in a base class while allowing subclasses to override specific steps. This ensures a consistent workflow while enabling customization of certain parts of the process.
 
+### Command
+
+Turns a request into an object, allowing you to parameterize actions, queue them, and support undo/redo flows.
+
+In this example, each editor action becomes a command. Copy, paste, and delete are encapsulated as objects that implement execute() and undo(), while the invoker keeps a history to replay or revert actions.
+
 <div style="display:flex; flex-wrap:wrap; gap:20px; align-items:center;">
 
 <div style="flex:1; min-width:280px;">
