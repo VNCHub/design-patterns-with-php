@@ -57,3 +57,9 @@ In this e-commerce example, an order transitions between states such as Pending 
 </div>
 
 </div>
+
+### Observer
+
+Defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified automatically.
+
+In this e-commerce example, the order is the subject. When its status changes, independent observers react to the same event: one sends email notifications, another writes logs, and another updates inventory.
